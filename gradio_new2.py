@@ -24,7 +24,7 @@ def ai_tool(user_input, pdf_text):
     prompt = f"User Query: {user_input}\nPDF Text: {pdf_text_truncated}\n"
 
     # Set up OpenAI API credentials (replace 'YOUR_API_KEY' with your actual API key)
-    openai.api_key = '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'
+    openai.api_key = 'YOUR API KEY'
 
     # Use GPT-3 to generate a response based on the prompt
     response = openai.Completion.create(
@@ -37,7 +37,7 @@ def ai_tool(user_input, pdf_text):
 
 
 def main(user_input):
-    pdf_folder = '/Users/Elise/Documents/PAPAI/docs'
+    pdf_folder = 'YOUR FILE PATH'
 
     # Collect all PDF files in the specified folder
     pdf_files = [file for file in os.listdir(pdf_folder) if file.endswith('.pdf')]
