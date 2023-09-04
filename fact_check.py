@@ -7,8 +7,8 @@ import nltk
 from nltk.metrics import jaccard_distance
 
 # Define constants
-API_KEY = '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'  # Your API key
-PDF_FOLDER = '/Users/Elise/Documents/PAPAI/docs'
+API_KEY = 'YOUR API KEY'  # Your API key
+PDF_FOLDER = 'YOUR FILE PATH'
 MAX_TOKENS_LIMIT = 4097
 BATCH_SIZE = 5
 
